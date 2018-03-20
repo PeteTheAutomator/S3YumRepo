@@ -16,7 +16,7 @@ phases:
 
 artifacts:
   files:
-    - '/S3YumRepo1/repo/**/*'
+    - 'repo/**/*'
 cache:
   paths:
-    - '/S3YumRepo1/repo/*.rpm'
+    - 'repo/*.rpm'
