@@ -19,4 +19,4 @@ artifacts:
     - 'repo/**/*'
 cache:
   paths:
-    - 'repo/*.rpm'
+    - 'repo/**/*'
