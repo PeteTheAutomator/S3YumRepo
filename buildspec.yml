@@ -1,0 +1,18 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Running sanity checks...
+      - createrepo --version
+      - yum install -y wget && yum clean all
+  build:
+    commands:
+      - echo Build started on `date`
+      - wget "http://www.mirrorservice.org/sites/mirror.centos.org/7/extras/x86_64/Packages/ansible-2.3.1.0-3.el7.noarch.rpm"
+      - wget "http://www.mirrorservice.org/sites/mirror.centos.org/7/extras/x86_64/Packages/ansible-2.3.2.0-2.el7.noarch.rpm"
+      - createrepo -d .
+
+artifacts:
+  files:
+    - **/*
