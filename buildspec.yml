@@ -17,6 +17,3 @@ phases:
 artifacts:
   files:
     - 'repo/**/*'
-cache:
-  paths:
-    - 'repo/*'
