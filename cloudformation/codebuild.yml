@@ -1,0 +1,81 @@
+Resources:
+  CodeBuildProject:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      ServiceRole: !Ref CodeBuildRole
+      Artifacts:
+        Type: S3
+        Location: 'ptayumrepo'
+        Name: 'S3YumRepo1'
+      BadgeEnabled: 'false'
+      Environment:
+        Type: LINUX_CONTAINER
+        ComputeType: BUILD_GENERAL1_SMALL
+        Image: 'docker.io/petetheautomator/s3yumrepo'
+      Source:
+        Type: GITHUB
+        Location: 'https://github.com/PeteTheAutomator/S3YumRepo.git'
+      TimeoutInMinutes: 10
+      VpcConfig:
+#        VpcId: !Ref CodeBuildVPC
+        VpcId: vpc-d1a64fb8
+#        Subnets: [!Ref CodeBuildSubnet]
+        Subnets: [subnet-5a2a3a21]
+#        SecurityGroupIds: [!Ref CodeBuildSecurityGroup]
+        SecurityGroupIds: [sg-902c74f8]
+      Cache:
+        Type: S3
+        Location: 'ptayumrepo/S3YumRepo1'
+  CodeBuildRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Statement:
+        - Action: ['sts:AssumeRole']
+          Effect: Allow
+          Principal:
+            Service: [codebuild.amazonaws.com]
+        Version: '2012-10-17'
+      Path: /
+      Policies:
+        - PolicyName: CodeBuildAccess
+          PolicyDocument:
+            Version: '2012-10-17'
+            Statement:
+              - Action:
+                - 'logs:*'
+                - 'ec2:CreateNetworkInterface'
+                - 'ec2:DescribeNetworkInterfaces'
+                - 'ec2:DeleteNetworkInterface'
+                - 'ec2:DescribeSubnets'
+                - 'ec2:DescribeSecurityGroups'
+                - 'ec2:DescribeDhcpOptions'
+                - 'ec2:DescribeVpcs'
+                - 'ec2:CreateNetworkInterfacePermission'
+                - 's3:*'
+                Effect: Allow
+                Resource: '*'
+# TODO: fix the open S3 permissions (s3:*) above ^^
+
+
+#  CodeBuildVPC:
+#    Type: 'AWS::EC2::VPC'
+#    Properties:
+#      CidrBlock: 10.0.0.0/16
+#      EnableDnsSupport: 'true'
+#      EnableDnsHostnames: 'true'
+#      Tags:
+#        - Key: name
+#          Value: codebuild
+#  CodeBuildSubnet:
+#    Type: 'AWS::EC2::Subnet'
+#    Properties:
+#      VpcId:
+#        Ref: CodeBuildVPC
+#      CidrBlock: 10.0.1.0/24
+#  CodeBuildSecurityGroup:
+#    Type: 'AWS::EC2::SecurityGroup'
+#    Properties:
+#      GroupName: Codebuild Internet Group
+#      GroupDescription: 'CodeBuild SecurityGroup'
+#      VpcId: !Ref CodeBuildVPC
