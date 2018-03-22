@@ -1,0 +1,406 @@
+{
+    "repo": "atomic", 
+    "checksum_type": "sha256", 
+    "packages": [
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libsolv-0.6.20-5.el7.x86_64.rpm", 
+            "checksum": "935baf6c832e7897ad5bbbc76f9c789247d15556c619e773eab110a2b241b290"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/rpcbind-0.2.0-27.atomic.0.el7.x86_64.rpm", 
+            "checksum": "ce104730cd682932b347b4795dbcd5386c597b28bad88cb1a2e23c8dcf004997"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/rpm-ostree-libs-2017.9-2.atomic.el7.x86_64.rpm", 
+            "checksum": "31c8247a63284359573bf0cfec28c3ae1369aa3adc6d8bb606e76873150c8e72"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/atomic-devmode-0.3.7-2.el7.noarch.rpm", 
+            "checksum": "d73030f80159fdb2bf0679ff77057e994479623a0a2d7757ae3e706bc111440a"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/perl-solv-0.6.4-4.el7.x86_64.rpm", 
+            "checksum": "b47025a084b5542596b4e361766449703576cfebd42767d0e2c15d7ff22e805c"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/atomicapp-0.6.3-1.el7.noarch.rpm", 
+            "checksum": "a3f60c059d2ccde0976c3be4d1493820cff597a56417fbfd0c256b56ecb78b72"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/centos-release-adb-1-3.el7.noarch.rpm", 
+            "checksum": "bd96c6b46106111086abca5a7fbb2e08a83ca4ce60121f6792dae5f7ce5039bd"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/rpm-ostree-2017.9-2.atomic.el7.x86_64.rpm", 
+            "checksum": "8f578453578fc2d937138379551d1cc62782de3e4b3c02032e7a22420840aba7"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/rpm-ostree-2017.11-1.atomic.el7.x86_64.rpm", 
+            "checksum": "1f899f0fef36e91036c5c760c700399d79110147fe748d23e5192ac88abb6993"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-1.4-1.el7.noarch.rpm", 
+            "checksum": "5a2486b4e4c7347f39135390979399e758ba0a3170e2b7096e5da56f3425855d"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/systemd-container-libs-208.20-4.el7.0.1.x86_64.rpm", 
+            "checksum": "fa2fcaef79806633e64289cf256712dfad82700a5303a8fcc2904e9df3c53d89"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/python-ipaddress-1.0.7-4.el7.noarch.rpm", 
+            "checksum": "bb0cac423b2ab8f0156ef281d81427e769a2b7f1d5bf28791a3c54e265355c4e"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/lorax-19.6.28-7.atomic.el7.x86_64.rpm", 
+            "checksum": "438f53bd6f93a30b657e161799e350b2fd9e639664379c36c1d6d6f067cfc802"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libhif-devel-0.2.0-5.atomic.0.el7.x86_64.rpm", 
+            "checksum": "8c358a04f1ebcfb233040846730d0955e5d462de67ddfd339a77b826663d3aaf"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/cockpit-ostree-160-1.el7.centos.x86_64.rpm", 
+            "checksum": "1408ef4657c825b3e77519f8d36c42080a787f55ccf8621ac840af2c0e9bacb0"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glusterfs-3.7.1-17.atomic.1.el7.x86_64.rpm", 
+            "checksum": "6026be17e33b9fad9b0de054f3269dbef770b4142b941cfeed953d8070bfeee2"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/systemd-sysv-208-99.atomic.0.el7.x86_64.rpm", 
+            "checksum": "3964278d681cca1225a075d42c0f4c52288dfb658048d271b0d996ca2d14c4aa"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glusterfs-client-xlators-3.7.1-17.atomic.1.el7.x86_64.rpm", 
+            "checksum": "f9cd51f7e28780fdf801e9c5196fd0cc1bcae0400fd279c9e845804d212301ef"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/selinux-policy-mls-3.13.1-63.atomic.el7.7.noarch.rpm", 
+            "checksum": "6e59b1b3aafdde858c995f36f82fb4f40de4c383314de479c8d5e4fdd7801088"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/openscap-daemon-0.1.6-1.el7.noarch.rpm", 
+            "checksum": "167280d7f848822158f283b584a04df2628e1a281e5105ecf765127208c0bdec"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/anaconda-widgets-devel-21.48.22.121-3.rhelah.0.el7.centos.x86_64.rpm", 
+            "checksum": "6760b9ec09e92020fb7abd1cf2c02ece838202003418f411b1ffae9b40a8d709"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libgudev1-devel-208-99.atomic.0.el7.x86_64.rpm", 
+            "checksum": "7be85dad6b224b286a83ad61f86f24a1cfb3dc2972e80d6e3c81c0d5decb86d1"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-1.7-1.el7.noarch.rpm", 
+            "checksum": "97c24df815a4030fb89e023b0a752f42c32bcd359ecd22add849330ca2904ffd"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/perl-Config-IniFiles-2.79-1.el7.noarch.rpm", 
+            "checksum": "cd6f6fdc9803031151b5fe7885cf0de3203e45016ba8c40f394025e72254032a"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/systemd-container-python-208.20-4.el7.0.1.x86_64.rpm", 
+            "checksum": "2b8d92dac25b52a689dd22a7f5f1d0bf0432eabac713d694089e266fc319d5a8"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libhif-0.2.0-5.atomic.0.el7.x86_64.rpm", 
+            "checksum": "6b23d6ca9baaa76d82d5ab4a83261bc9083581bfcca38f40115b2d468fac0bc9"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/pykickstart-1.99.43.10-4.atomic.el7.noarch.rpm", 
+            "checksum": "968a3a41edd31ce8e99c0df51eadc5a6ef5e6f775702677db2d4a2b51c2739c2"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/cloud-utils-growpart-0.29-2.el7.noarch.rpm", 
+            "checksum": "c57ee0876bbb204c0d03d804c92676887d60eda592c7e5d62bf77d9d700877aa"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-1.5-1.el7.noarch.rpm", 
+            "checksum": "56b71f50f3b8fdffe7db7f377a7efa19fbb30592ed8307cd8bb5fd11a6536549"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/stub-redhat-lsb-core-only-for-ceph-2015.1-1.atomic.el7.noarch.rpm", 
+            "checksum": "06b01dcddcfb971a4d4504bf089c07412ff492633f8160bdffca162d4cc89ee2"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libgsystem-devel-2015.1-1.atomic.el7.x86_64.rpm", 
+            "checksum": "390d023117803890bb29a94e41e4587adc073fa984ebe281744e28dcc74d78df"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-1.6-1.el7.noarch.rpm", 
+            "checksum": "a8beb84a1f851a4a1f77fc3cff8a9886a43378613327e003cfe3dc64669a4d44"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/python-gluster-3.7.1-17.atomic.1.el7.x86_64.rpm", 
+            "checksum": "d1a993026d9d9aaf8d460ca99fe17f8a17985b73950d835c64c53d34edcea79c"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/rpm-ostree-client-2017.9-1.atomic.el7.x86_64.rpm", 
+            "checksum": "f4d547d21f84df5cd5a96563724631903cdc6e290432a51a94470ef2f22fc345"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/python-docker-py-1.7.0.0-1.el7.noarch.rpm", 
+            "checksum": "df8dfda9b70a0b1cd0ecb8db71a19a1d5f2db034477d366fc1fbc7db9483617c"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glusterfs-fuse-3.7.1-17.atomic.1.el7.x86_64.rpm", 
+            "checksum": "90dd9ae2aa31ca5b204461fdc8ea0a1903ae36e22014a4a243dfaff0708f63d2"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-2.2-1.el7.noarch.rpm", 
+            "checksum": "ac7cece20cf012abdac83c501075dcaea9302ab87670990b59dd6caf1df04eda"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glusterfs-libs-3.7.1-17.atomic.1.el7.x86_64.rpm", 
+            "checksum": "8a4754ae79d1568fb7f0f194a38f7d36cf9cf768bf5877736ba1c70cce9b5274"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/selinux-policy-3.13.1-63.atomic.el7.7.noarch.rpm", 
+            "checksum": "ba60861dead05c85601b23b2cf5703fa88d85990a94e3864e87fd5a9aace6da2"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/systemd-container-devel-208.20-4.el7.0.1.x86_64.rpm", 
+            "checksum": "7f46e73c0a960c22aeed3175234dd89e083996091e599c26c9991606f4a08fb3"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/hawkey-devel-0.5.6-3.atomic.0.el7.x86_64.rpm", 
+            "checksum": "db7425a75fa9cafa7e558977280a46878ae921b503c8f41e3d48dea2d5ac27e7"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/selinux-policy-minimum-3.13.1-63.atomic.el7.7.noarch.rpm", 
+            "checksum": "d809b389e2d72903eaaec330c19b210dc0af7e60f4c4879921c9999c8a3c4d25"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glusterfs-api-3.7.1-17.atomic.1.el7.x86_64.rpm", 
+            "checksum": "5404027cf54dc01e1761ba0c853524a745f0f76dce3e9d44494a797d5eb217cf"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-2.2-2.el7.noarch.rpm", 
+            "checksum": "bc1d7faa3eb3c44719473885ef2489bc5009f203855747880d542df60ae4af7e"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/atomicapp-0.5.1-1.el7.noarch.rpm", 
+            "checksum": "2daa08667cc85c96a6a88d31f3ea92712a7de8d8ae1550701466ca325ae843a2"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/selinux-policy-doc-3.13.1-63.atomic.el7.7.noarch.rpm", 
+            "checksum": "e70fa515677120c337c97a42a29b83f506c7c6f8a4a65b3216b239f945b2ddd9"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/rpm-ostree-devel-2017.11-1.atomic.el7.x86_64.rpm", 
+            "checksum": "ad4528cb17775af4a3245f58bdc5526c18c0a0db8c3ddf1c5dec11fb56bdc793"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/ostree-grub2-2017.5-1.el7.x86_64.rpm", 
+            "checksum": "80397338436ec61382637eace89c6afa9dc775a092fee4b83ce863aee3db4680"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glib2-fam-2.46.2-3.el7.x86_64.rpm", 
+            "checksum": "fa38c35fa069c3a3bdd1be35d72461d5a40cd927c5eb27dbac341340710ba2a5"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-1.3-1.el7.noarch.rpm", 
+            "checksum": "d647a0fa901af4b64b9ae3d57495384950e9bd9bbdae336af3c1c0969b7d9f23"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/anaconda-21.48.22.121-3.rhelah.0.el7.centos.x86_64.rpm", 
+            "checksum": "3d5f887a3e5b785e12fdb57ced08e97d7da57d81dcc73a5038f66bf424ce84ae"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/systemd-journal-gateway-208-99.atomic.0.el7.x86_64.rpm", 
+            "checksum": "376389ccc9122111ffa94251e7f4f2ad45564735c7b62e79cdc8fd443efe7e86"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/microdnf-2-4.el7.x86_64.rpm", 
+            "checksum": "f3a4cc9885bbaed34440db20bf331de96ddfdbd09672ee6a79a4f33821ab8a94"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libdnf-0.7.4-3.el7.centos.x86_64.rpm", 
+            "checksum": "64eddd57a8165a1f6c818cac02700ef61d55d83a9cd49a8a7923fd139910adc5"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/systemd-libs-208-99.atomic.0.el7.x86_64.rpm", 
+            "checksum": "3db45a2e0baf91ccc3f5baf12bbee5802dbf6cbebbb57b2b22e890f997d7c137"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/cockpit-ostree-155-1.el7.centos.x86_64.rpm", 
+            "checksum": "3902ada2c8b1aa0bb8ac4fe41a90d2adec4e241d5e1db79425d4f986f0a38ff2"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/python-hawkey-0.5.6-3.atomic.0.el7.x86_64.rpm", 
+            "checksum": "ccb1c3c839751a5408bf8f0c8814003095ded405a2da55ec0a9d5404daf37a75"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/anaconda-core-21.48.22.121-3.rhelah.0.el7.centos.x86_64.rpm", 
+            "checksum": "ed806e90f4a0783c02c9e241f50f19cc31a1a0899332abde67e2e39f3b2ae4fa"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/ostree-2017.5-1.el7.x86_64.rpm", 
+            "checksum": "730abccd63f57778ddffd8018c3fef99ad66ea1bfabdf1b21d92339be0e6486d"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libgudev1-208-99.atomic.0.el7.x86_64.rpm", 
+            "checksum": "d4a34ed2931deb51d96c48499c7de10f4ed0ddf39b8b042a66f9ff157a435799"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/anaconda-widgets-21.48.22.121-3.rhelah.0.el7.centos.x86_64.rpm", 
+            "checksum": "e61a973925c4531fa7b5647d29bf132a059b3f9f74530f28aa3b73e1c18670a7"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/systemd-container-208.20-4.el7.0.1.x86_64.rpm", 
+            "checksum": "e62e6bcfb9c71883e2d26149f655da30ba373c38f197151e507bff1608161b6f"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glib2-doc-2.46.2-3.el7.noarch.rpm", 
+            "checksum": "b19acadb9d6ff4d11ac547257cf85840b5b035ecbe5d84c9c6212c3195b15528"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/ruby-solv-0.6.4-4.el7.x86_64.rpm", 
+            "checksum": "bf5f4744fe3ba586247e231b6927df834c3d4554f8c73f2e46d7220d01bf5ae9"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/systemd-python-208-99.atomic.0.el7.x86_64.rpm", 
+            "checksum": "a5158507a4b0565a07b83c1422c67ee6f780f48ac64990fe48ac4a5daf799c08"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/systemd-208-99.atomic.0.el7.x86_64.rpm", 
+            "checksum": "faa35b336d178f6835c206a6d881cc15f9ffb4441e95d6a1a917948e37df3641"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libsolv-tools-0.6.20-5.el7.x86_64.rpm", 
+            "checksum": "45492cba68499f16c6b59a6d513268f440049fd5baf22f9e4737c575f5ee23bd"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/atomic-pkglayer-2016.1.1.gfbf8dde-2.el7.x86_64.rpm", 
+            "checksum": "6cdaf9a5166b813e29e470e2bcc5dd034c3337d7e9d422979e19b04e654fe06a"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/ostree-devel-2017.5-1.el7.x86_64.rpm", 
+            "checksum": "4de27f4804b636bd2eff8f333aebfed6ded7a23439c2f59f0e07ccb5e21b494f"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/rpm-ostree-client-2017.11-1.atomic.el7.x86_64.rpm", 
+            "checksum": "55dcab112070bf28f4785394f1a97dbed217b80e6e75872a3cb649a127e85632"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glib2-2.46.2-3.el7.x86_64.rpm", 
+            "checksum": "27a8dc081e53318b1e8523b7bda292f7a9b6943366e692ea5b5ae09f82edf9f4"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/librepo-devel-1.7.14-3.atomic.0.el7.x86_64.rpm", 
+            "checksum": "f4279ae1faec5cf4a8d1382fc88738951907bd6e9dce489cadfb26e795b99788"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/python-anymarkup-0.4.3-2.el7.noarch.rpm", 
+            "checksum": "e73fcea2c5087696e58b7d7053d7a19d045d729db8ca51d55fda5859a094d051"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/sos-3.2-26.el7atomic.noarch.rpm", 
+            "checksum": "d1f21ed7bb108b1e4cd68eaa0ea615fb024027656e11d6c02ac42bdd42df093b"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/python-blivet-0.18.34-4.atomic.el7.noarch.rpm", 
+            "checksum": "3ff1ec0ca060281830455f86ff2ebb46613dc00b352a2a41e5de2bfed2c1c43c"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/docker-storage-setup-0.0.4-2.el7.noarch.rpm", 
+            "checksum": "6006f10182cdf882eaf5d8dacf398464abd25fa64484743e7a625db89b1a25d8"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/anaconda-tui-21.48.22.121-3.rhelah.0.el7.centos.x86_64.rpm", 
+            "checksum": "8298bb6da3a0ea73e906ddfe7e4cd57dd8192045135c8bbb3c6e8d5cd2ae6996"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/anaconda-gui-21.48.22.121-3.rhelah.0.el7.centos.x86_64.rpm", 
+            "checksum": "343eb39b4e68e163897ac782f5943af6b50424e979b2f02790a66e299c21757c"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libdnf-devel-0.7.4-3.el7.centos.x86_64.rpm", 
+            "checksum": "ed86c511dd417d5bd33e0521b180fad4dd7a25d59c34e17bea612934ec98cd2b"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-1-4.el7.noarch.rpm", 
+            "checksum": "1aa7f814e5dfb8f652d3f7407e20defba14fb77a55162dddf29d430a66239e00"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libsolv-devel-0.6.20-5.el7.x86_64.rpm", 
+            "checksum": "08790f35b96eccd4df56542861d0b38275dc11227587475d0afa62a7cccef7ef"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/ostree-fuse-2017.5-1.el7.x86_64.rpm", 
+            "checksum": "5c22fc15359f5dd6848354400f1b28e6435341423977231017f0873c3f9bc4d6"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glib2-devel-2.46.2-3.el7.x86_64.rpm", 
+            "checksum": "9504a54398a63b80733994e6c14bc7167983ab21b8ce24064b49e23b7375b590"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/python-xmltodict-0.9.0-1.el7.noarch.rpm", 
+            "checksum": "80820afc58961e9aeac8e4166ca7861a6ac30aa73f6db2be4d3b0c0c9ce1455f"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/selinux-policy-devel-3.13.1-63.atomic.el7.7.noarch.rpm", 
+            "checksum": "8a49a8c6a36e8782a8509ad969947d293e24c26188b748d4dc40367d2a56bbc1"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/cloud-init-0.7.9-9.el7.centos.2.x86_64.rpm", 
+            "checksum": "528270967c75734f021afb790cb42782bfdaf7d995d4ec2d9b713637d5d5baae"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/cockpit-ostree-157-1.el7.centos.x86_64.rpm", 
+            "checksum": "2de6f0cddfcd95383d26cb4733e5fa79f7f172713f98bc7fc3655bd16ed7b567"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glusterfs-cli-3.7.1-17.atomic.1.el7.x86_64.rpm", 
+            "checksum": "761ea126f724369c70c61f5497309b06635912b6785d710d527c416fa0cf88f4"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/python-librepo-1.7.14-3.atomic.0.el7.x86_64.rpm", 
+            "checksum": "28e67053ac124f5557d3f2459286a8b758f440d8932497ab3f0a4ec6c07a35bc"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/glusterfs-devel-3.7.1-17.atomic.1.el7.x86_64.rpm", 
+            "checksum": "92139608f547a13efcb3d0def368d32cc8807ddde9c6b0be2da7e66689099d1d"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/systemd-devel-208-99.atomic.0.el7.x86_64.rpm", 
+            "checksum": "3ff285c61db07f51effffce8f2a7604434abb202a35aee1d9cd94bf1a7899f23"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libsolv-demo-0.6.20-5.el7.x86_64.rpm", 
+            "checksum": "acf59aba804f110b40882dadd0a83bf5e6a17d2060c0d7a9f588200751149429"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/centos-release-atomic-7-1.2.el7.centos.1.noarch.rpm", 
+            "checksum": "504b8ecbdb6617bce9c86dc9556f35acbbe473c88cc66120ad175b4159b4a6cc"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/librepo-1.7.14-3.atomic.0.el7.x86_64.rpm", 
+            "checksum": "27b654fbd5f1771ba9eec8db457ed150190dc668e8a0ffa65b7ad89bdcfdf248"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/rpm-ostree-devel-2017.9-2.atomic.el7.x86_64.rpm", 
+            "checksum": "071310c84bac2d8fc6fc55c8973414005fe3b82db54775ef7b36078edd0ee376"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/openshift2nulecule-0.0.4-1.el7.noarch.rpm", 
+            "checksum": "33379ac17a86529bc0a1f0cf233afb092f9c19c7e9bc43c01290d62650c10aab"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-1.1-1.el7.noarch.rpm", 
+            "checksum": "cead039ae4a2d62ceba81e0193913d06656b3921821d0f75a9c9b976f581711e"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-1.2-1.el7.noarch.rpm", 
+            "checksum": "aee6d1fbcafc321e5dd5d70a8553925948a156a599b86ddc8e5b0ef0ec48ce33"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/libgsystem-2015.1-1.atomic.el7.x86_64.rpm", 
+            "checksum": "706784f29ca53060d12e8f82a196927cbf1106321e5df54bf888938f9b7e1f47"
+        }, 
+        {
+            "url": "https://192.168.56.103/pulp/repos/centos/7/atomic/x86_64/adb-utils-2.0-1.el7.noarch.rpm", 
+            "checksum": "39d61c41f72c72768ac4b423273ce81ead9f27ba4539aa9eeb7bbceeff254473"
+        }
+    ]
+}
