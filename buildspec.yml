@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    PULP_SERVER: "pulp"
+    PULP_SERVER: "ec2-35-177-187-214.eu-west-2.compute.amazonaws.com"
     PULP_USER: "admin"
     PULP_CHANNEL: "extras"
   parameter-store:
