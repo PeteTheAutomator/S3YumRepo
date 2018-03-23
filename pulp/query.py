@@ -123,4 +123,4 @@ if __name__ == "__main__":
         else:
             rpm.retrieve()
 
-    print json.dumps(results, indent=4)
+    print(json.dumps(results, indent=4))
