@@ -1,17 +1,25 @@
 version: 0.2
 
+env:
+  variables:
+    PULP_SERVER: "pulp"
+    PULP_USER: "admin"
+    PULP_CHANNEL: "extras"
+  parameter-store:
+    PULP_PASSWORD: "S3YumRepo-pulp-password"
+
 phases:
   pre_build:
     commands:
+      - apt-get update -y && apt-get install -y yum createrepo python-pip
+      - pip install requests
       - echo Running sanity checks...
       - createrepo --version
-      - yum install -y wget && yum clean all
   build:
     commands:
       - echo Build started on `date`
       - mkdir -p repo && cd repo
-      - wget -nc "http://www.mirrorservice.org/sites/mirror.centos.org/7/extras/x86_64/Packages/ansible-2.3.1.0-3.el7.noarch.rpm"
-      - wget -nc "http://www.mirrorservice.org/sites/mirror.centos.org/7/extras/x86_64/Packages/ansible-2.3.2.0-2.el7.noarch.rpm"
+      - ../pulp/query.py -s $PULP_SERVER -u $PULP_USER -p $PULP_PASSWORD -c $PULP_CHANNEL
       - createrepo -d .
 
 artifacts:
