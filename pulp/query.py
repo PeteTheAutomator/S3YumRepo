@@ -52,7 +52,8 @@ class Repo:
 
     @property
     def packages(self):
-        query = {'criteria': {'fields': {'unit': ['name', 'version']}, 'type_ids': ['rpm'], 'limit': 5}}
+        #query = {'criteria': {'fields': {'unit': ['name', 'version']}, 'type_ids': ['rpm'], 'limit': 5}}
+        query = {'criteria': {'fields': {'unit': ['name', 'version']}, 'type_ids': ['rpm']}}
         query_json = json.dumps(query)
         r = requests.post(self.apibase + '/repositories/' + self.channel + '/search/units/', data=query_json,
                           auth=self.creds, verify=False)
